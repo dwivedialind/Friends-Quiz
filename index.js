@@ -27,7 +27,7 @@ function mcqQuiz(listAnswers,question,answer){
   }if(score<1){
     score=0;
   }
-  console.log("your score: ",score)
+
 }
 for(var i=0;i<queList.length;i++){
   var currentQuiz=queList[i];
