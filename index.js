@@ -33,12 +33,13 @@ for(var i=0;i<queList.length;i++){
   var currentQuiz=queList[i];
   mcqQuiz(currentQuiz.options,currentQuiz.question,currentQuiz.answer)
 }
+
 } else {
   console.log('See you later!!');
 
 }
 
-
+console.log("Your Total Score: ",score);
 
 // var readlineSync = require('readline-sync'),
 //   animals = ['Lion', 'Elephant', 'Crocodile', 'Giraffe', 'Hippo'],
